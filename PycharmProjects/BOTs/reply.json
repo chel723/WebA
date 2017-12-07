@@ -1,0 +1,30 @@
+{
+  "query": "silence the tv",
+  "topScoringIntent": {
+    "intent": "HomeAutomation.TurnOff",
+    "score": 0.9941094
+  },
+  "intents": [
+    {
+      "intent": "HomeAutomation.TurnOff",
+      "score": 0.9941094
+    },
+    {
+      "intent": "None",
+      "score": 0.233709425
+    },
+    {
+      "intent": "HomeAutomation.TurnOn",
+      "score": 0.06785311
+    }
+  ],
+  "entities": [
+    {
+      "entity": "tv",
+      "type": "HomeAutomation.Device",
+      "startIndex": 12,
+      "endIndex": 13,
+      "score": 0.876958966
+    }
+  ]
+}
